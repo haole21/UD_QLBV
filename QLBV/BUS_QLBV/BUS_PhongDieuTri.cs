@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ET_QLBV
+namespace BUS_QLBV
 {
-    public class Class1
+    internal class BUS_PhongDieuTri
     {
     }
 }

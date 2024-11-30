@@ -41,7 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BUS_BacSi.cs" />
+    <Compile Include="BUS_BenhAn.cs" />
+    <Compile Include="BUS_BenhNhan.cs" />
+    <Compile Include="BUS_BHYT.cs" />
+    <Compile Include="BUS_DichVu.cs" />
+    <Compile Include="BUS_DieuTri.cs" />
+    <Compile Include="BUS_HoaDon.cs" />
+    <Compile Include="BUS_KhamBenh.cs" />
+    <Compile Include="BUS_Khoa.cs" />
+    <Compile Include="BUS_KhoaNV.cs" />
+    <Compile Include="BUS_LichSuBA.cs" />
+    <Compile Include="BUS_MuaThuoc.cs" />
+    <Compile Include="BUS_NhanVien.cs" />
+    <Compile Include="BUS_PhongDieuTri.cs" />
+    <Compile Include="BUS_PhongKham.cs" />
+    <Compile Include="BUS_PKhamBenhNhan.cs" />
+    <Compile Include="BUS_SuDungDV.cs" />
+    <Compile Include="BUS_Thuoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

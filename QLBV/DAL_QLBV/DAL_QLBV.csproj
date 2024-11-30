@@ -41,7 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ConnectDB.cs" />
+    <Compile Include="DAL_BacSi.cs" />
+    <Compile Include="DAL_BenhNhan.cs" />
+    <Compile Include="DAL_BHYT.cs" />
+    <Compile Include="DAL_DichVu.cs" />
+    <Compile Include="DAL_BenhAn.cs" />
+    <Compile Include="DAL_DieuTri.cs" />
+    <Compile Include="DAL_HoaDon.cs" />
+    <Compile Include="DAL_KhamBenh.cs" />
+    <Compile Include="DAL_Khoa.cs" />
+    <Compile Include="DAL_KhoaNV.cs" />
+    <Compile Include="DAL_LichSuBA.cs" />
+    <Compile Include="DAL_MuaThuoc.cs" />
+    <Compile Include="DAL_NhanVien.cs" />
+    <Compile Include="DAL_PhongDieuTri.cs" />
+    <Compile Include="DAL_PhongKham.cs" />
+    <Compile Include="DAL_PKhamBenhNhan.cs" />
+    <Compile Include="DAL_SuDungDV.cs" />
+    <Compile Include="DAL_Thuoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

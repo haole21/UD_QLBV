@@ -41,7 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ET_BacSi.cs" />
+    <Compile Include="ET_BenhAn.cs" />
+    <Compile Include="ET_BenhNhan.cs" />
+    <Compile Include="ET_BHYT.cs" />
+    <Compile Include="ET_ConNguoi.cs" />
+    <Compile Include="ET_DichVu.cs" />
+    <Compile Include="ET_DieuTri.cs" />
+    <Compile Include="ET_HoaDon.cs" />
+    <Compile Include="ET_KhamBenh.cs" />
+    <Compile Include="ET_Khoa.cs" />
+    <Compile Include="ET_KhoaNV.cs" />
+    <Compile Include="ET_LichSuBA.cs" />
+    <Compile Include="ET_MuaThuoc.cs" />
+    <Compile Include="ET_NhanVien.cs" />
+    <Compile Include="ET_PhongDieuTri.cs" />
+    <Compile Include="ET_PhongKham.cs" />
+    <Compile Include="ET_PKhamBenhNhan.cs" />
+    <Compile Include="ET_SuDungDV.cs" />
+    <Compile Include="ET_Thuoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
