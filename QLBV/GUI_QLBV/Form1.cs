@@ -16,5 +16,7 @@ namespace GUI_QLBV
         {
             InitializeComponent();
         }
+
+     
     }
 }
