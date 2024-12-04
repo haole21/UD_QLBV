@@ -8,7 +8,7 @@ namespace ET_QLBV
 {
     public class ET_BenhAn
     {
-        private string maBacSi;
+        private string id;
         private string maBenhNhan;
         private string ketQua;
 
@@ -16,14 +16,14 @@ namespace ET_QLBV
         {
         }
 
-        public ET_BenhAn(string maBacSi, string maBenhNhan, string ketQua)
+        public ET_BenhAn(string id, string maBenhNhan, string ketQua)
         {
-            this.maBacSi = maBacSi;
+            this.id = id;
             this.maBenhNhan = maBenhNhan;
             this.ketQua = ketQua;
         }
 
-        public string MaBacSi { get => maBacSi; set => maBacSi = value; }
+        public string Id { get => id; set => id = value; }
         public string MaBenhNhan { get => maBenhNhan; set => maBenhNhan = value; }
         public string KetQua { get => ketQua; set => ketQua = value; }
     }

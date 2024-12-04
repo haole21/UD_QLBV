@@ -13,3 +13,6 @@ D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.csproj.CoreCompileInpu
 D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.csproj.Up2Date
 D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.exe
 D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.pdb
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_BacSi.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\bin\Debug\DAL_QLBV.dll
+D:\homework\LTUD\project\QLBV\GUI_QLBV\bin\Debug\DAL_QLBV.pdb

@@ -3,12 +3,108 @@
   "WorkspaceRootPath": "D:\\homework\\LTUD\\project\\QLBV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF53D9C2-64CC-4041-944B-D16C0024F50D}|ET_QLBV\\ET_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\et_qlbv\\et_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF53D9C2-64CC-4041-944B-D16C0024F50D}|ET_QLBV\\ET_QLBV.csproj|solutionrelative:et_qlbv\\et_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_sudungdv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_sudungdv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_benhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_benhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_muathuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_muathuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_lichsuba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_lichsuba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_pkhambenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_pkhambenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_phongdieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_phongdieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_khoanv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_khoanv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_khambenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\bus_qlbv\\bus_dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BEEEBB-9982-49C4-B06E-F5E953188934}|BUS_QLBV\\BUS_QLBV.csproj|solutionrelative:bus_qlbv\\bus_dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_thuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_sudungdv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_sudungdv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_pkhambenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_pkhambenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_phongkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_phongdieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_phongdieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\dal_qlbv\\dal_muathuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47703BBC-67D9-4395-A487-AB15BC9C5D78}|DAL_QLBV\\DAL_QLBV.csproj|solutionrelative:dal_qlbv\\dal_muathuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\gui_qlbv\\gui_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|solutionrelative:gui_qlbv\\gui_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\gui_qlbv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|solutionrelative:gui_qlbv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|d:\\homework\\ltud\\project\\qlbv\\gui_qlbv\\gui_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72CEBFB7-228A-4CAB-B2D3-ECAB180E450D}|GUI_QLBV\\GUI_QLBV.csproj|solutionrelative:gui_qlbv\\gui_bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +114,342 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ET_BacSi.cs",
-              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\ET_QLBV\\ET_BacSi.cs",
-              "RelativeDocumentMoniker": "ET_QLBV\\ET_BacSi.cs",
-              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\ET_QLBV\\ET_BacSi.cs",
-              "RelativeToolTip": "ET_QLBV\\ET_BacSi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DAL_DieuTri.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_DieuTri.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_DieuTri.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_DieuTri.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_DieuTri.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T04:38:23.448Z",
+              "WhenOpened": "2024-12-04T14:23:30.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAL_BacSi.cs",
-              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_BacSi.cs",
-              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_BacSi.cs",
-              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_BacSi.cs",
-              "RelativeToolTip": "DAL_QLBV\\DAL_BacSi.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAIwDkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BUS_BenhAn.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_BenhAn.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_BenhAn.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_BenhAn.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_BenhAn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T04:04:40.427Z",
+              "WhenOpened": "2024-12-04T14:23:25.803Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BUS_BacSi.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_BacSi.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_BacSi.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_BacSi.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_BacSi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:23:24.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUS_MuaThuoc.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_MuaThuoc.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_MuaThuoc.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_MuaThuoc.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_MuaThuoc.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:23:02.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BUS_Thuoc.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_Thuoc.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_Thuoc.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_Thuoc.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_Thuoc.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:19:22.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BUS_SuDungDV.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_SuDungDV.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_SuDungDV.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_SuDungDV.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_SuDungDV.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:19:06.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BUS_PKhamBenhNhan.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PKhamBenhNhan.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_PKhamBenhNhan.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PKhamBenhNhan.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_PKhamBenhNhan.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:18:38.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BUS_PhongKham.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PhongKham.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_PhongKham.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PhongKham.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_PhongKham.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:18:17.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BUS_PhongDieuTri.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PhongDieuTri.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_PhongDieuTri.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_PhongDieuTri.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_PhongDieuTri.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:56.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BUS_NhanVien.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_NhanVien.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_NhanVien.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_NhanVien.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_NhanVien.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:36.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BUS_Khoa.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_Khoa.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_Khoa.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_Khoa.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_Khoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:20.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BUS_KhamBenh.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_KhamBenh.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_KhamBenh.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_KhamBenh.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_KhamBenh.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:11.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BUS_HoaDon.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_HoaDon.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_HoaDon.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_HoaDon.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_HoaDon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:05.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BUS_DieuTri.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_DieuTri.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_DieuTri.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_DieuTri.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_DieuTri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:17:04.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BUS_LichSuBA.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_LichSuBA.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_LichSuBA.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_LichSuBA.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_LichSuBA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:16:17.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BUS_KhoaNV.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_KhoaNV.cs",
+              "RelativeDocumentMoniker": "BUS_QLBV\\BUS_KhoaNV.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\BUS_QLBV\\BUS_KhoaNV.cs",
+              "RelativeToolTip": "BUS_QLBV\\BUS_KhoaNV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:16:15.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DAL_Thuoc.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_Thuoc.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_Thuoc.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_Thuoc.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_Thuoc.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:15:56.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DAL_SuDungDV.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_SuDungDV.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_SuDungDV.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_SuDungDV.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_SuDungDV.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:15:19.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DAL_PKhamBenhNhan.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PKhamBenhNhan.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_PKhamBenhNhan.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PKhamBenhNhan.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_PKhamBenhNhan.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:15:06.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DAL_PhongKham.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PhongKham.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_PhongKham.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PhongKham.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_PhongKham.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:14:49.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DAL_PhongDieuTri.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PhongDieuTri.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_PhongDieuTri.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_PhongDieuTri.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_PhongDieuTri.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA9wEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:14:31.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DAL_NhanVien.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_NhanVien.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_NhanVien.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_NhanVien.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_NhanVien.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:14:01.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DAL_MuaThuoc.cs",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_MuaThuoc.cs",
+              "RelativeDocumentMoniker": "DAL_QLBV\\DAL_MuaThuoc.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\DAL_QLBV\\DAL_MuaThuoc.cs",
+              "RelativeToolTip": "DAL_QLBV\\DAL_MuaThuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:14:13.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GUI_Category.cs [Design]",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\GUI_Category.cs",
+              "RelativeDocumentMoniker": "GUI_QLBV\\GUI_Category.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\GUI_Category.cs [Design]",
+              "RelativeToolTip": "GUI_QLBV\\GUI_Category.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:02:30.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\Form1.cs",
+              "RelativeDocumentMoniker": "GUI_QLBV\\Form1.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\Form1.cs [Design]",
+              "RelativeToolTip": "GUI_QLBV\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:02:29.14Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GUI_BacSi.cs [Design]",
+              "DocumentMoniker": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\GUI_BacSi.cs",
+              "RelativeDocumentMoniker": "GUI_QLBV\\GUI_BacSi.cs",
+              "ToolTip": "D:\\homework\\LTUD\\project\\QLBV\\GUI_QLBV\\GUI_BacSi.cs [Design]",
+              "RelativeToolTip": "GUI_QLBV\\GUI_BacSi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:02:27.772Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
