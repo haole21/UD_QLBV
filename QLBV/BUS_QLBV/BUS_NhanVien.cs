@@ -32,5 +32,9 @@ namespace BUS_QLBV
         {
             return dal_nhanVien.SuaNhanVien(et_NhanVien);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_nhanVien.FindData(key);
+        }
     }
 }

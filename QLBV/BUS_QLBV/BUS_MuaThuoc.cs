@@ -12,7 +12,7 @@ namespace BUS_QLBV
     public class BUS_MuaThuoc
     {
         DAL_MuaThuoc dal_muathuoc = new DAL_MuaThuoc();
-        public DataTable getDataFromKhoa()
+        public DataTable getDataFromMuaThuoc()
         {
             return dal_muathuoc.LoadData();
         }
@@ -27,6 +27,10 @@ namespace BUS_QLBV
         public bool SuaMuaThuoc(ET_MuaThuoc et_muathuoc)
         {
             return dal_muathuoc.SuaMuaThuoc(et_muathuoc);
+        }
+        public DataTable FindData(string key)
+        {
+            return dal_muathuoc.FindData(key);
         }
     }
 }

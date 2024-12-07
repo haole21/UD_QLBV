@@ -21,5 +21,6 @@ namespace ET_QLBV
         }
 
         public string PhongDieuTri { get => phongDieuTri; set => phongDieuTri = value; }
+
     }
 }

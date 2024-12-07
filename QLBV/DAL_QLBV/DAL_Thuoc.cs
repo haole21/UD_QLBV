@@ -28,6 +28,22 @@ namespace DAL_QLBV
             }
         }
 
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMTHUOC_BANGTEN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemThuoc(ET_Thuoc thuoc)
         {
             bool flag = false;

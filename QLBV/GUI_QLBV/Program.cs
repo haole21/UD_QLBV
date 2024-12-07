@@ -16,7 +16,7 @@ namespace GUI_QLBV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI_BacSi());
+            Application.Run(new frm_main());
         }
     }
 }

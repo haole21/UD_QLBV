@@ -28,5 +28,9 @@ namespace BUS_QLBV
         {
             return dal_bhyt.SuaBHYT(bhyt);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_bhyt.FindData(key);
+        }
     }
 }

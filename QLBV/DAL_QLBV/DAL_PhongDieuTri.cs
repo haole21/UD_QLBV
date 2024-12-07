@@ -28,6 +28,22 @@ namespace DAL_QLBV
             }
         }
 
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMPHONGDIEUTRI_BANGLOAIPHG", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemPhongDieuTri(ET_PhongDieuTri phongDieuTri)
         {
             bool flag = false;

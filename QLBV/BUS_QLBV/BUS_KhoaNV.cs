@@ -12,7 +12,7 @@ namespace BUS_QLBV
     public class BUS_KhoaNV
     {
         DAL_KhoaNV dal_khoaNV = new DAL_KhoaNV();
-        public DataTable getDataFromKhoa()
+        public DataTable getDataFromKhoaNV()
         {
             return dal_khoaNV.LoadData();
         }
@@ -27,6 +27,10 @@ namespace BUS_QLBV
         public bool SuaKhoaNV(ET_KhoaNV et_Khoanv)
         {
             return dal_khoaNV.SuaKhoaNV(et_Khoanv);
+        }
+        public DataTable FindData(string key)
+        {
+            return dal_khoaNV.FindData(key);
         }
     }
 }

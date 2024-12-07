@@ -28,5 +28,9 @@ namespace BUS_QLBV
         {
             return dal_khoa.SuaKhoa(et_Khoa);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_khoa.FindData(key);
+        }
     }
 }

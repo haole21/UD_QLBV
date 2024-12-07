@@ -30,7 +30,7 @@ namespace ET_QLBV
             this.ngaySinh = ngaySinh;
             this.phai = phai;
         }
-
+      
         public string Id { get => id; set => id = value; }
         public string Ho { get => ho; set => ho = value; }
         public string Ten { get => ten; set => ten = value; }
@@ -38,5 +38,6 @@ namespace ET_QLBV
         public string DiaChi { get => diaChi; set => diaChi = value; }
         public DateTime NgaySinh { get => ngaySinh; set => ngaySinh = value; }
         public string Phai { get => phai; set => phai = value; }
+        public string HoTen { get { return ho + " " + ten; } }
     }
 }

@@ -20,6 +20,22 @@ namespace DAL_QLBV
             conn.getClose();
             return dt;
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMKHOA_BANGTEN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemKhoa(ET_Khoa khoa)
         {
             bool flat = false;
@@ -33,7 +49,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool XoaKHoa(ET_Khoa khoa)
@@ -48,12 +64,13 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool SuaKhoa(ET_Khoa khoa)
         {
             bool flat = false;
+            conn.getConnect();
             SqlCommand cmd = new SqlCommand("SP_SUAKHOA", conn.Conn);
             cmd.CommandText = "SP_SUAKHOA";
             cmd.CommandType = CommandType.StoredProcedure;
@@ -63,7 +80,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
     }

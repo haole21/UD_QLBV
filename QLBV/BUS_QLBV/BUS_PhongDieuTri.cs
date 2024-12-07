@@ -32,5 +32,9 @@ namespace BUS_QLBV
         {
             return dal_phongDieuTri.SuaPhongDieuTri(et_PhongDieuTri);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_phongDieuTri.FindData(key);
+        }
     }
 }

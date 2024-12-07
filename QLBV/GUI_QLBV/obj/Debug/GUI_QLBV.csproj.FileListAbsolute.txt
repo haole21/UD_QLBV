@@ -16,3 +16,15 @@ D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.pdb
 D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_BacSi.resources
 D:\homework\LTUD\project\QLBV\GUI_QLBV\bin\Debug\DAL_QLBV.dll
 D:\homework\LTUD\project\QLBV\GUI_QLBV\bin\Debug\DAL_QLBV.pdb
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_Category.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_BenhAn.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_BenhNhan.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_BHYT.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_DichVu.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_DieuTri.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_HoaDon.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_KhamBenh.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_Khoa.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_KhoaNV.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_LichSuBA.resources
+D:\homework\LTUD\project\QLBV\GUI_QLBV\obj\Debug\GUI_QLBV.GUI_MuaThuoc.resources

@@ -24,6 +24,9 @@ namespace BUS_QLBV
         {
             return dal_DieuTri.XoaDieuTri(dt);
         }
-      
+        public DataTable FindData(string key)
+        {
+            return dal_DieuTri.FindData(key);
+        }
     }
 }

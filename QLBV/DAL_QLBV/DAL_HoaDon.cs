@@ -20,6 +20,22 @@ namespace DAL_QLBV
             conn.getClose();
             return dt;
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMHOADON_BANGTENBN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemHD(ET_HoaDon hoadon)
         {
             bool flat = false;
@@ -37,7 +53,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool XoaHoaDon(ET_HoaDon hoadon)
@@ -52,12 +68,13 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool SuaHoaDon(ET_HoaDon hoadon)
         {
             bool flat = false;
+            conn.getConnect();
             SqlCommand cmd = new SqlCommand("SP_SUAHOADON", conn.Conn);
             cmd.CommandText = "SP_SUAHOADON";
             cmd.CommandType = CommandType.StoredProcedure;
@@ -71,7 +88,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
     }

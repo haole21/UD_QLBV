@@ -28,9 +28,26 @@ namespace DAL_QLBV
             }
 
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMBENHAN_BANGTENBN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemBenhAn(ET_BenhAn ba)
         {
             bool flag = false;
+            conn.getConnect();
             SqlCommand cmd = new SqlCommand("SP_THEMBENHAN", conn.Conn);
             cmd.CommandText = "SP_THEMBENHAN";
             cmd.CommandType = CommandType.StoredProcedure;
@@ -38,21 +55,25 @@ namespace DAL_QLBV
             cmd.Parameters.Add(new SqlParameter("MABN", ba.MaBenhNhan));
             cmd.Parameters.Add(new SqlParameter("KETQUA", ba.KetQua));
             if (cmd.ExecuteNonQuery() > 0) flag = true;
+            conn.getClose();
             return flag;
         }
         public bool XoaBenhAn(ET_BenhAn ba)
         {
             bool flag = false;
+            conn.getConnect();
             SqlCommand cmd = new SqlCommand("SP_XOABENHAN", conn.Conn);
             cmd.CommandText = "SP_XOABENHAN";
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Add(new SqlParameter("MABA", ba.Id));        
             if (cmd.ExecuteNonQuery() > 0) flag = true;
+            conn.getClose();
             return flag;
         }
         public bool SuaBenhAn(ET_BenhAn ba)
         {
             bool flag = false;
+            conn.getConnect();
             SqlCommand cmd = new SqlCommand("SP_SUABENHAN", conn.Conn);
             cmd.CommandText = "SP_SUABENHAN";
             cmd.CommandType = CommandType.StoredProcedure;
@@ -60,7 +81,9 @@ namespace DAL_QLBV
             cmd.Parameters.Add(new SqlParameter("MABN", ba.MaBenhNhan));
             cmd.Parameters.Add(new SqlParameter("KETQUA", ba.KetQua));
             if (cmd.ExecuteNonQuery() > 0) flag = true;
+            conn.getClose();
             return flag;
         }
+   
     }
 }

@@ -20,6 +20,22 @@ namespace DAL_QLBV
             conn.getClose();
             return dt;
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMKHAMBENH_BANGTENBN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemKhamBenh(ET_KhamBenh khambenh)
         {
             bool flat = false;
@@ -34,7 +50,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool XoaKhamBenh(ET_KhamBenh khambenh)
@@ -50,7 +66,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
         public bool SuaKhamBenh(ET_KhamBenh khambenh)
@@ -67,7 +83,7 @@ namespace DAL_QLBV
             {
                 flat = true;
             }
-            conn.getConnect();
+            conn.getClose();
             return flat;
         }
 

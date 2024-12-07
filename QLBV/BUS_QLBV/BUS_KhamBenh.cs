@@ -28,5 +28,9 @@ namespace BUS_QLBV
         {
             return dal_KhamBenh.SuaKhamBenh(et_khambenh);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_KhamBenh.FindData(key);
+        }
     }
 }

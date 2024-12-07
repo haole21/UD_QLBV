@@ -15,7 +15,6 @@ namespace DAL_QLBV
         public SqlConnection Conn { get => conn; }
         public void getConnect()
         {
-            if (conn.State == ConnectionState.Open) return;
             conn = new SqlConnection("Data Source=DESKTOP-G20M4PR;Initial Catalog=QLBV;Integrated Security=True;");
             conn.Open();
         }
@@ -30,10 +29,33 @@ namespace DAL_QLBV
             SqlCommand cmd = new SqlCommand(sql,conn);
             cmd.CommandText = sql;
             cmd.CommandType = CommandType.StoredProcedure;
-            SqlDataAdapter da = new SqlDataAdapter();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
             return dt; 
         }
+        public DataTable FindData(string sql, string key)
+        {
+            if (sql == null || key == null) return null;
+            
+            try
+            {
+
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.CommandText = sql;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("@TEN",key));
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
+        }
+
     }
 }

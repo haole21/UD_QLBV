@@ -28,5 +28,9 @@ namespace BUS_QLBV
         {
             return dal_lichsu.SuaLichSuBenhAn(et_lichsu);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_lichsu.FindData(key);
+        }
     }
 }

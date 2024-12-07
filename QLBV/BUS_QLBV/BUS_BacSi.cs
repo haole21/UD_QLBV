@@ -28,5 +28,9 @@ namespace BUS_QLBV
         {
             return dal_bacsi.SuaBacSi(bs);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_bacsi.FindData(key);
+        }
     }
 }

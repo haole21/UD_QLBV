@@ -32,5 +32,9 @@ namespace BUS_QLBV
         {
             return dal_thuoc.SuaThuoc(et_Thuoc);
         }
+        public DataTable FindData(string key)
+        {
+            return dal_thuoc.FindData(key);
+        }
     }
 }

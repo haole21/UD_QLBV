@@ -9,7 +9,7 @@ using ET_QLBV;
 
 namespace BUS_QLBV
 {
-    internal class BUS_BenhAn
+    public class BUS_BenhAn
     {
         DAL_BenhAn dal_benhan = new DAL_BenhAn();
         public DataTable getData()
@@ -27,6 +27,10 @@ namespace BUS_QLBV
         public bool SuaBenhAn(ET_BenhAn ba)
         {
             return dal_benhan.SuaBenhAn(ba);
+        }
+        public DataTable FindData(string key)
+        {
+            return dal_benhan.FindData(key);
         }
     }
 }

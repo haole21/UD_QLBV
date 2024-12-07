@@ -26,6 +26,22 @@ namespace DAL_QLBV
                 throw ex;
             }
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMDICHVU_BANGTEN", key);
+                conn.getClose();
+                return kq;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemDichVu(ET_DichVu dv)
         {
             bool flag = false;

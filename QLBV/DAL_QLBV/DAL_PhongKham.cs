@@ -27,7 +27,22 @@ namespace DAL_QLBV
                 throw ex;
             }
         }
+        public DataTable FindData(string key)
+        {
+            try
+            {
+                conn.getConnect();
+                DataTable kq = conn.FindData("SP_TIMPHONGKHAM_BANGTENKHOA", key);
+                conn.getClose();
+                return kq;
 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
         public bool ThemPhongKham(ET_PhongKham phongKham)
         {
             bool flag = false;

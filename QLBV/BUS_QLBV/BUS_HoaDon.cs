@@ -20,14 +20,18 @@ namespace BUS_QLBV
         {
             return dal_hoadon.ThemHD(et_HoaDon);
         }
-        public bool XoaKhoa(ET_HoaDon et_HoaDon)
+        public bool XoaHoaDon(ET_HoaDon et_HoaDon)
         {
             return dal_hoadon.XoaHoaDon(et_HoaDon);
         }
 
-        public bool SuaKhoa(ET_HoaDon et_HoaDon)
+        public bool SuaHoaDon(ET_HoaDon et_HoaDon)
         {
             return dal_hoadon.SuaHoaDon(et_HoaDon);
+        }
+        public DataTable FindData(string key)
+        {
+            return dal_hoadon.FindData(key);
         }
     }
 }
