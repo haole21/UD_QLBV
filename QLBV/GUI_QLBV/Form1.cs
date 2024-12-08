@@ -107,6 +107,31 @@ namespace GUI_QLBV
         {
             MessageBox.Show("Nếu xảy ra lỗi gì xin bạn hãy liên hệ với email của chúng tôi Teamwork@gmail.com", "Thông báo");
         }
+
+        private void nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new frm_InDanhSachNhanVien(),pnl_main);
+        }
+
+        private void nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new frm_DanhSachBenhNhanDangDuocDieuTri(), pnl_main);
+        }
+
+        private void danhSáchBácSĩToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new frm_InDanhSachBacSi(),pnl_main);
+        }
+
+        private void thôngTinBệnhNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new frm_InThongTinBenhNhan(),pnl_main);
+        }
+
+        private void danhSáchKhoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new frm_InDanhSachBenhNhanDiKhamBenh(),pnl_main);
+        }
     }
     
    

@@ -73,6 +73,36 @@ namespace GUI_QLBV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background3 {
+            get {
+                object obj = ResourceManager.GetObject("background3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap be1d9f111a07f40f72c8465aabfaaf57 {
+            get {
+                object obj = ResourceManager.GetObject("be1d9f111a07f40f72c8465aabfaaf57", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BN_PK {
+            get {
+                object obj = ResourceManager.GetObject("BN_PK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap clipboard {
             get {
                 object obj = ResourceManager.GetObject("clipboard", resourceCulture);
@@ -113,6 +143,16 @@ namespace GUI_QLBV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HD1 {
+            get {
+                object obj = ResourceManager.GetObject("HD1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_help {
             get {
                 object obj = ResourceManager.GetObject("icon_help", resourceCulture);
@@ -146,6 +186,16 @@ namespace GUI_QLBV.Properties {
         internal static System.Drawing.Bitmap icon_report {
             get {
                 object obj = ResourceManager.GetObject("icon_report", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_63_min {
+            get {
+                object obj = ResourceManager.GetObject("image_63-min", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +246,26 @@ namespace GUI_QLBV.Properties {
         internal static System.Drawing.Bitmap mt {
             get {
                 object obj = ResourceManager.GetObject("mt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PDT1 {
+            get {
+                object obj = ResourceManager.GetObject("PDT1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdt2 {
+            get {
+                object obj = ResourceManager.GetObject("pdt2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

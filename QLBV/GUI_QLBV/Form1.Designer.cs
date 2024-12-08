@@ -52,6 +52,7 @@
             this.danhSáchKhoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.danhSáchBácSĩToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinBệnhNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinThuốcĐượcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnl_main = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
@@ -86,7 +87,7 @@
             // 
             this.mànHìnhChínhToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.icon_home;
             this.mànHìnhChínhToolStripMenuItem.Name = "mànHìnhChínhToolStripMenuItem";
-            this.mànHìnhChínhToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mànHìnhChínhToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.mànHìnhChínhToolStripMenuItem.Text = "Màn hình chính ";
             this.mànHìnhChínhToolStripMenuItem.Click += new System.EventHandler(this.mànHìnhChínhToolStripMenuItem_Click);
             // 
@@ -94,7 +95,7 @@
             // 
             this.thoátToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.exit;
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -221,7 +222,8 @@
             this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem,
             this.danhSáchKhoaToolStripMenuItem,
             this.danhSáchBácSĩToolStripMenuItem,
-            this.thôngTinBệnhNhânToolStripMenuItem});
+            this.thôngTinBệnhNhânToolStripMenuItem,
+            this.thôngTinThuốcĐượcToolStripMenuItem});
             this.báoCáoToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.icon_report;
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
             this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(77, 40);
@@ -231,36 +233,48 @@
             // 
             this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
             this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Name = "nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem";
-            this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Size = new System.Drawing.Size(366, 22);
-            this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Text = "nhân viên điều dưỡng hiện đang công tác tại bệnh viện";
+            this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Text = "Danh sách nhân viên";
+            this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem.Click += new System.EventHandler(this.nhânViênĐiềuDưỡngHiệnĐangCôngTácTạiBệnhViệnToolStripMenuItem_Click);
             // 
             // nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem
             // 
             this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
             this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Name = "nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem";
-            this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Size = new System.Drawing.Size(366, 22);
-            this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Text = "những bệnh nhân đang còn điều trị tại bệnh viện";
+            this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Text = "Danh sách những bệnh nhân đang điều trị tại bệnh viện";
+            this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem.Click += new System.EventHandler(this.nhữngBệnhNhânĐangCònĐiềuTrịTạiBệnhViệnToolStripMenuItem_Click);
             // 
             // danhSáchKhoaToolStripMenuItem
             // 
             this.danhSáchKhoaToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
             this.danhSáchKhoaToolStripMenuItem.Name = "danhSáchKhoaToolStripMenuItem";
-            this.danhSáchKhoaToolStripMenuItem.Size = new System.Drawing.Size(366, 22);
-            this.danhSáchKhoaToolStripMenuItem.Text = "Danh sách khoa ";
+            this.danhSáchKhoaToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.danhSáchKhoaToolStripMenuItem.Text = "Danh sách bệnh nhân đi khám bệnh ";
+            this.danhSáchKhoaToolStripMenuItem.Click += new System.EventHandler(this.danhSáchKhoaToolStripMenuItem_Click);
             // 
             // danhSáchBácSĩToolStripMenuItem
             // 
             this.danhSáchBácSĩToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
             this.danhSáchBácSĩToolStripMenuItem.Name = "danhSáchBácSĩToolStripMenuItem";
-            this.danhSáchBácSĩToolStripMenuItem.Size = new System.Drawing.Size(366, 22);
+            this.danhSáchBácSĩToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
             this.danhSáchBácSĩToolStripMenuItem.Text = "Danh Sách bác sĩ ";
+            this.danhSáchBácSĩToolStripMenuItem.Click += new System.EventHandler(this.danhSáchBácSĩToolStripMenuItem_Click);
             // 
             // thôngTinBệnhNhânToolStripMenuItem
             // 
             this.thôngTinBệnhNhânToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
             this.thôngTinBệnhNhânToolStripMenuItem.Name = "thôngTinBệnhNhânToolStripMenuItem";
-            this.thôngTinBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(366, 22);
+            this.thôngTinBệnhNhânToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
             this.thôngTinBệnhNhânToolStripMenuItem.Text = "Thông tin Bệnh Nhân";
+            this.thôngTinBệnhNhânToolStripMenuItem.Click += new System.EventHandler(this.thôngTinBệnhNhânToolStripMenuItem_Click);
+            // 
+            // thôngTinThuốcĐượcToolStripMenuItem
+            // 
+            this.thôngTinThuốcĐượcToolStripMenuItem.Image = global::GUI_QLBV.Properties.Resources.clipboard;
+            this.thôngTinThuốcĐượcToolStripMenuItem.Name = "thôngTinThuốcĐượcToolStripMenuItem";
+            this.thôngTinThuốcĐượcToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.thôngTinThuốcĐượcToolStripMenuItem.Text = "Thông tin mua thuốc";
             // 
             // trợGiúpToolStripMenuItem
             // 
@@ -332,6 +346,7 @@
         private System.Windows.Forms.ToolStripMenuItem danhSáchKhoaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem danhSáchBácSĩToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinBệnhNhânToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinThuốcĐượcToolStripMenuItem;
     }
 }
 
