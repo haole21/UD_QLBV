@@ -132,6 +132,16 @@ namespace GUI_QLBV
         {
             child.LoadChildrenFormInPanel(new frm_InDanhSachBenhNhanDiKhamBenh(),pnl_main);
         }
+
+        private void quảnLýThuốcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new GUI_Thuoc(),pnl_main);
+        }
+
+        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            child.LoadChildrenFormInPanel(new GUI_NhanVien(), pnl_main);
+        }
     }
     
    

@@ -109,6 +109,7 @@
             // 
             // dgv_Thuoc
             // 
+            this.dgv_Thuoc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Thuoc.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgv_Thuoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Thuoc.Location = new System.Drawing.Point(15, 19);
@@ -116,6 +117,7 @@
             this.dgv_Thuoc.RowHeadersWidth = 62;
             this.dgv_Thuoc.Size = new System.Drawing.Size(767, 291);
             this.dgv_Thuoc.TabIndex = 0;
+            this.dgv_Thuoc.Click += new System.EventHandler(this.dgv_Thuoc_Click);
             // 
             // label7
             // 
@@ -179,6 +181,7 @@
             this.btn_Thoat.TabIndex = 106;
             this.btn_Thoat.Text = "Thoát";
             this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
             // btn_LamMoi
             // 
@@ -189,6 +192,7 @@
             this.btn_LamMoi.TabIndex = 103;
             this.btn_LamMoi.Text = "Làm mới ";
             this.btn_LamMoi.UseVisualStyleBackColor = true;
+            this.btn_LamMoi.Click += new System.EventHandler(this.btn_LamMoi_Click);
             // 
             // btn_Sua
             // 
@@ -199,6 +203,7 @@
             this.btn_Sua.TabIndex = 102;
             this.btn_Sua.Text = "Sửa";
             this.btn_Sua.UseVisualStyleBackColor = true;
+            this.btn_Sua.Click += new System.EventHandler(this.btn_Sua_Click);
             // 
             // btn_Xoa
             // 
@@ -209,6 +214,7 @@
             this.btn_Xoa.TabIndex = 101;
             this.btn_Xoa.Text = "Xoá";
             this.btn_Xoa.UseVisualStyleBackColor = true;
+            this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
             // 
             // btn_Them
             // 
@@ -219,15 +225,18 @@
             this.btn_Them.TabIndex = 100;
             this.btn_Them.Text = "Thêm ";
             this.btn_Them.UseVisualStyleBackColor = true;
+            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // txt_Key
             // 
             this.txt_Key.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.txt_Key.Location = new System.Drawing.Point(569, 590);
+            this.txt_Key.Location = new System.Drawing.Point(569, 593);
             this.txt_Key.Name = "txt_Key";
             this.txt_Key.Size = new System.Drawing.Size(192, 20);
             this.txt_Key.TabIndex = 105;
-            this.txt_Key.Text = "Nhập tên bệnh nhân cần tìm";
+            this.txt_Key.Text = "Nhập tên thuốc cần tìm";
+            this.txt_Key.Enter += new System.EventHandler(this.txt_Key_Enter);
+            this.txt_Key.Leave += new System.EventHandler(this.txt_Key_Leave);
             // 
             // btn_TimKiem
             // 
@@ -237,6 +246,7 @@
             this.btn_TimKiem.TabIndex = 104;
             this.btn_TimKiem.Text = "Tìm kiếm";
             this.btn_TimKiem.UseVisualStyleBackColor = true;
+            this.btn_TimKiem.Click += new System.EventHandler(this.btn_TimKiem_Click);
             // 
             // GUI_Thuoc
             // 
@@ -265,6 +275,8 @@
             this.Controls.Add(this.label1);
             this.Name = "GUI_Thuoc";
             this.Text = "GUI_Thuoc";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GUI_Thuoc_FormClosing);
+            this.Load += new System.EventHandler(this.GUI_Thuoc_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Thuoc)).EndInit();
             this.ResumeLayout(false);
